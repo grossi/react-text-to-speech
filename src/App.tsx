@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <input type="text" value={speakInput}onChange={handleOnChange}/>
-        <Speak lang="it">
+        <Speak lang="ja">
           {speakInput}
         </Speak>
       </header>
